@@ -1,5 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+
+
 body {
     background-image: url(images/froggy_background1.png);
     background-repeat: repeat;
     background-size: 300px 300px;
+    font-family: "Capriola", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+
+    font-size: 35px;
+    line-height: 1.5;
+    color:#fef4dc;
+    background-color: #edb066;
+    text-align: center;
+    padding: 20px 15px;
+    margin: 50px 400px 100px;
+    border-radius: 12px;
+    border: solid 10px #ffc49d;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    height: 100px;
+}
+
+button {
+    font-family: "Capriola", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #9f7643;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    border: solid 10px #edb066;
+    background-color: #fef4dc;
+
 }
