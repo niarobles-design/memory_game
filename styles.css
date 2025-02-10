@@ -10,15 +10,34 @@ body {
     font-style: normal;
 }
 
-h1 {
+footer .section01 {
+    display:flex;
+    flex-direction: column;
+}
 
+.section02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f8f6f2;
+    margin: 50px 150px;
+    border-radius: 12px;
+    border: solid 10px #c0e4a0;
+    color: #edb066;
+}
+
+.contador {
+    color:#9f7643;
+}
+h1 {
+    justify-content: center;
     font-size: 35px;
     line-height: 1.5;
     color:#fef4dc;
     background-color: #edb066;
     text-align: center;
     padding: 20px 15px;
-    margin: 50px 400px 100px;
+    margin: 50px 150px;
     border-radius: 12px;
     border: solid 10px #ffc49d;
 }
@@ -42,6 +61,12 @@ button {
     height: 100%;
     border-radius: 12px;
     border: solid 10px #edb066;
-    background-color: #fef4dc;
+    background-color: #f8f6f2;
 
+}
+
+h6{
+    justify-content: center;
+    text-align: center;
+    color: #9f7643;
 }
