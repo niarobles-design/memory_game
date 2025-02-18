@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
 
+*,
+*::after,
+*::before{
+    margin:0;
+}
 
 body {
     background-image: url(images/froggy_background1.png);
@@ -8,49 +13,48 @@ body {
     font-family: "Capriola", serif;
     font-weight: 400;
     font-style: normal;
+    
 }
 
-footer .section01 {
+/* Cards section */
+
+.section01 {
     display:flex;
     flex-direction: column;
     justify-content: center;
-
+    align-items: center;
+    padding: 50px;
 }
 
-.section02 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: #f8f6f2;
-    margin: 50px 150px;
-    border-radius: 12px;
-    border: solid 10px #c0e4a0;
-    color: #edb066;
-}
+/* Title */
 
-.contador {
-    color:#9f7643;
-}
-h1 {
-    font-size: 35px;
+.section01 h1 {
+    font-size: 3rem;
     line-height: 1.5;
+    text-align: center;
     color:#fef4dc;
     background-color: #edb066;
-    text-align: center;
-    padding: 20px 15px;
-    margin: 50px 100px;
+    padding: 20px;
     border-radius: 12px;
     border: solid 10px #ffc49d;
-    flex: 1 1 300px;
+    width: 400px;
+    margin-bottom: 40px;
 }
 
-table {
+/* Table styling */
+
+.section01 table {
     width: 100%;
+    margin: auto;
+    padding:20px;
 }
 
 td {
     text-align: center;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+
 }
 
 button {
@@ -59,17 +63,43 @@ button {
     font-style: normal;
     font-size: 20px;
     color: #9f7643;
-    width: 100%;
-    justify-content: center;
-    height: 100%;
-    border-radius: 12px;
     border: solid 10px #edb066;
+    border-radius: 12px;
     background-color: #f8f6f2;
-
+    height: 100%;
+    width: 100%;
 }
 
-h6{
-    justify-content: center;
+/* Game Stats Styling */
+
+.section02 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f6f2;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 12px;
+    border: solid 10px rgb(192, 228, 160);
+    color: #edb066;
+}
+
+.contador {
+    color:#9f7643;
+}
+
+
+
+/* Footer styling */
+
+.footer {
+    background-color: rgba(192, 228, 160, 0.7);
+    width: 100%;
+    padding: 10px; 
+    margin-top: 100px;
+}
+
+.footer h6 {
     text-align: center;
-    color: #9f7643;
+    color: #754509;
 }
